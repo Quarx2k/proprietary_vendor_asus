@@ -322,7 +322,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/asus/t00n/proprietary/vendor/lib/hw/sensors.Pad.msm8974.so:system/vendor/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
-    vendor/asus/t00n/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.514_AKM_B.msm8974.so:system/lib/hw/sensors.514_AKM_B.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.514_AMI_M.msm8974.so:system/lib/hw/sensors.514_AMI_M.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.ADSP.msm8974.so:system/lib/hw/sensors.ADSP.msm8974.so \
