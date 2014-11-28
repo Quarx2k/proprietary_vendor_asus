@@ -239,12 +239,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/asus/t00n/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/asus/t00n/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/asus/t00n/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/asus/t00n/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/asus/t00n/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/asus/t00n/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/asus/t00n/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/asus/t00n/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/asus/t00n/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/asus/t00n/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/asus/t00n/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/asus/t00n/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/asus/t00n/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
@@ -312,6 +315,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/qxdm/VoLTE_V3_NO_L2.cfg:system/etc/qxdm/VoLTE_V3_NO_L2.cfg \
     vendor/asus/t00n/proprietary/etc/qxdm/VoLTE_V3_SRVCC.cfg:system/etc/qxdm/VoLTE_V3_SRVCC.cfg \
     vendor/asus/t00n/proprietary/etc/qxdm/WLAN_V1.cfg:system/etc/qxdm/WLAN_V1.cfg \
+    vendor/asus/t00n/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/asus/t00n/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/asus/t00n/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/asus/t00n/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/asus/t00n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/asus/t00n/proprietary/vendor/lib/hw/sensors.Pad.msm8974.so:system/vendor/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
@@ -332,6 +339,4 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/asus/t00n/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/asus/t00n/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/asus/t00n/proprietary/bin/hvdcp:system/bin/hvdcp

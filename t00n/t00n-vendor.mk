@@ -17,12 +17,25 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/asus/t00n/overlay
 
-# Apps
 PRODUCT_PACKAGES += \
-    TimeService \
+    com.qualcomm.location \
+    QuickBoot \
     qcrilmsgtunnel \
-    com.qualcomm.location
+    shutdownlistener
 
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    libTimeService \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    libscale \
+
+PRODUCT_PACKAGES += \
+    libwvdrmengine \
+    libwvdrm_L3 \
+    libwvm \
+    libWVStreamControlAPI_L3
 
 #com.qualcomm.services.location
 $(call inherit-product, vendor/asus/t00n/t00n-vendor-blobs.mk)
