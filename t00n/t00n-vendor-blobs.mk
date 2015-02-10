@@ -340,4 +340,5 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/asus/t00n/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/asus/t00n/proprietary/bin/hvdcp:system/bin/hvdcp
+    vendor/asus/t00n/proprietary/bin/hvdcp:system/bin/hvdcp \
+    vendor/asus/t00n/proprietary/vendor/firmware/libpn544_c3_fw.so:system/vendor/firmware/libpn544_c3_fw.so
