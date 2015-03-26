@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     QuickBoot \
     qcrilmsgtunnel \
-    shutdownlistener
+    shutdownlistener \
+    AsusCamera
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
