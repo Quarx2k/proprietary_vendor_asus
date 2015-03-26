@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/lib/libsarcsoftface.so:system/lib/libsarcsoftface.so \
     vendor/asus/t00n/proprietary/lib/libsarcsoft_gallery.so:system/lib/libsarcsoft_gallery.so \
     vendor/asus/t00n/proprietary/lib/libsarcsoft_image_engine.so:system/lib/libsarcsoft_image_engine.so \
+    vendor/asus/t00n/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/asus/t00n/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
+    vendor/asus/t00n/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
     vendor/asus/t00n/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
     vendor/asus/t00n/proprietary/lib/ditCL.bin:system/lib/ditCL.bin \
     vendor/asus/t00n/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
