@@ -320,10 +320,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/qxdm/VoLTE_V3_NO_L2.cfg:system/etc/qxdm/VoLTE_V3_NO_L2.cfg \
     vendor/asus/t00n/proprietary/etc/qxdm/VoLTE_V3_SRVCC.cfg:system/etc/qxdm/VoLTE_V3_SRVCC.cfg \
     vendor/asus/t00n/proprietary/etc/qxdm/WLAN_V1.cfg:system/etc/qxdm/WLAN_V1.cfg \
-    vendor/asus/t00n/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/asus/t00n/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/asus/t00n/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/asus/t00n/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/asus/t00n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/asus/t00n/proprietary/vendor/lib/hw/sensors.Pad.msm8974.so:system/vendor/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
@@ -343,5 +339,4 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/asus/t00n/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/asus/t00n/proprietary/bin/hvdcp:system/bin/hvdcp \
-    vendor/asus/t00n/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/asus/t00n/proprietary/bin/hvdcp:system/bin/hvdcp
