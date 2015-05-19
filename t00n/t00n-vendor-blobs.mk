@@ -233,6 +233,33 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
     vendor/asus/t00n/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
     vendor/asus/t00n/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
+    vendor/asus/t00n/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/asus/t00n/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/asus/t00n/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/asus/t00n/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/asus/t00n/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
+    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
+    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
+    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
+    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
+    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
+    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
+    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
+    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
+    vendor/asus/t00n/proprietary/etc/firmware/keymaster.b00:system/etc/firmware/keymaster.b00 \
+    vendor/asus/t00n/proprietary/etc/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
+    vendor/asus/t00n/proprietary/etc/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
+    vendor/asus/t00n/proprietary/etc/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
+    vendor/asus/t00n/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
+    vendor/asus/t00n/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/asus/t00n/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/asus/t00n/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/asus/t00n/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/asus/t00n/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/asus/t00n/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/asus/t00n/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/asus/t00n/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/asus/t00n/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/asus/t00n/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
@@ -240,6 +267,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/asus/t00n/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/asus/t00n/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/asus/t00n/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/asus/t00n/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/asus/t00n/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/asus/t00n/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
