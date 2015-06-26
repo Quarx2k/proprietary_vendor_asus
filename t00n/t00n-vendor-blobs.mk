@@ -348,6 +348,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/qxdm/VoLTE_V3_NO_L2.cfg:system/etc/qxdm/VoLTE_V3_NO_L2.cfg \
     vendor/asus/t00n/proprietary/etc/qxdm/VoLTE_V3_SRVCC.cfg:system/etc/qxdm/VoLTE_V3_SRVCC.cfg \
     vendor/asus/t00n/proprietary/etc/qxdm/WLAN_V1.cfg:system/etc/qxdm/WLAN_V1.cfg \
+    vendor/asus/t00n/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/asus/t00n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/asus/t00n/proprietary/vendor/lib/hw/sensors.Pad.msm8974.so:system/vendor/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
@@ -363,6 +370,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/lib/libinvensense_hal_514_AKM_B.so:system/lib/libinvensense_hal_514_AKM_B.so \
     vendor/asus/t00n/proprietary/lib/libinvensense_hal_514_AMI306_M.so:system/lib/libinvensense_hal_514_AMI306_M.so \
     vendor/asus/t00n/proprietary/lib/libinvensense_hal_AKM_M.so:system/lib/libinvensense_hal_AKM_M.so \
+    vendor/asus/t00n/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/asus/t00n/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
