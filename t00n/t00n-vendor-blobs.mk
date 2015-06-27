@@ -206,6 +206,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/asus/t00n/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/asus/t00n/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/asus/t00n/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/asus/t00n/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
@@ -260,8 +261,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
     vendor/asus/t00n/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
     vendor/asus/t00n/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/asus/t00n/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/asus/t00n/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/asus/t00n/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/asus/t00n/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/asus/t00n/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
