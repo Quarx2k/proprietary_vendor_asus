@@ -193,13 +193,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/asus/t00n/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/asus/t00n/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/asus/t00n/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Bluetooth_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Bluetooth_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_General_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_General_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Global_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Global_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Handset_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Handset_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Hdmi_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Hdmi_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Headset_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Headset_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Speaker_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Speaker_cal.acdb \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
