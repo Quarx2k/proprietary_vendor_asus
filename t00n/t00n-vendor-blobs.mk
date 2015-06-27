@@ -355,6 +355,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/asus/t00n/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/asus/t00n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/asus/t00n/proprietary/vendor/lib/hw/sensors.Pad.msm8974.so:system/vendor/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
