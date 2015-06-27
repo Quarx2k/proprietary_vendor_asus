@@ -364,12 +364,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/asus/t00n/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/asus/t00n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/asus/t00n/proprietary/vendor/lib/hw/sensors.Pad.msm8974.so:system/vendor/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
-    vendor/asus/t00n/proprietary/lib/hw/sensors.514_AKM_B.msm8974.so:system/lib/hw/sensors.514_AKM_B.msm8974.so \
-    vendor/asus/t00n/proprietary/lib/hw/sensors.514_AMI_M.msm8974.so:system/lib/hw/sensors.514_AMI_M.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.ADSP.msm8974.so:system/lib/hw/sensors.ADSP.msm8974.so \
-    vendor/asus/t00n/proprietary/lib/hw/sensors.AKM_M.msm8974.so:system/lib/hw/sensors.AKM_M.msm8974.so \
+    vendor/asus/t00n/proprietary/lib/hw/sensors.Pad.msm8974.so:system/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/libcmdthread.so:system/lib/libcmdthread.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
