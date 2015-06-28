@@ -350,7 +350,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/asus/t00n/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/asus/t00n/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/asus/t00n/proprietary/etc/qxdm/VoLTE_V3_NO_L2.cfg:system/etc/qxdm/VoLTE_V3_NO_L2.cfg \
     vendor/asus/t00n/proprietary/etc/qxdm/VoLTE_V3_SRVCC.cfg:system/etc/qxdm/VoLTE_V3_SRVCC.cfg \
