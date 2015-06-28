@@ -83,7 +83,6 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := AsusСamera
-LOCAL_OVERRIDES_PACKAGES := Camera2
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/app/AsusCamera/AsusCamera.apk
 LOCAL_MODULE_TAGS := optional
