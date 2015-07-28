@@ -18,24 +18,15 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/asus/t00n/overlay
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    QuickBoot \
-    shutdownlistener \
-    AsusCamera
-
-PRODUCT_PACKAGES += \
-    libtime_genoff \
-    libTimeService \
-    TimeService
-
-PRODUCT_PACKAGES += \
-    libscale \
-
-PRODUCT_PACKAGES += \
+    asusCamera \
     libwvdrmengine \
     libwvdrm_L3 \
     libwvm \
     libWVStreamControlAPI_L3
 
-#com.qualcomm.services.location
-$(call inherit-product, vendor/asus/t00n/t00n-vendor-blobs.mk)
+ifeq ($(QCPATH),)
+$(call inherit-product, vendor/asus/t00n/asus_blobs.mk)
+else
+$(call inherit-product, vendor/asus/t00n/qc_blobs.mk)
+endif
+
