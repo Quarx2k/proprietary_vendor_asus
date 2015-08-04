@@ -15,8 +15,6 @@
 PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/asus/t00n/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/asus/t00n/proprietary/bin/config.dat:system/bin/config.dat \
-    vendor/asus/t00n/proprietary/bin/Denoice_data.ncf:system/bin/Denoice_data.ncf \
     vendor/asus/t00n/proprietary/bin/USB_Camera_Update/fw_update.sh:system/bin/USB_Camera_Update/fw_update.sh \
     vendor/asus/t00n/proprietary/bin/USB_Camera_Update/rts_usb:system/bin/USB_Camera_Update/rts_usb \
     vendor/asus/t00n/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -31,6 +29,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
     vendor/asus/t00n/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
     vendor/asus/t00n/proprietary/lib/ditCL.bin:system/lib/ditCL.bin \
+    vendor/asus/t00n/proprietary/lib/libAFE.so:system/lib/libAFE.so \
+    vendor/asus/t00n/proprietary/lib/libcamera_defocus.so:system/lib/libcamera_defocus.so \
+    vendor/asus/t00n/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
+    vendor/asus/t00n/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+    vendor/asus/t00n/proprietary/lib/libfilterfw.so:system/lib/libfilterfw.so \
+    vendor/asus/t00n/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/asus/t00n/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
+    vendor/asus/t00n/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/asus/t00n/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
+    vendor/asus/t00n/proprietary/lib/libsphere3.so:system/lib/libsphere3.so \
     vendor/asus/t00n/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/asus/t00n/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/asus/t00n/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -168,6 +176,38 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:system/vendor/lib/libactuator_dw9716_camcorder.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_dw9716_camera.so:system/vendor/lib/libactuator_dw9716_camera.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_iu074.so:system/vendor/lib/libactuator_iu074.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_iu074_camcorder.so:system/vendor/lib/libactuator_iu074_camcorder.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_iu074_camera.so:system/vendor/lib/libactuator_iu074_camera.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_ov12830.so:system/vendor/lib/libactuator_ov12830.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_ov12830_camcorder.so:system/vendor/lib/libactuator_ov12830_camcorder.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_ov12830_camera.so:system/vendor/lib/libactuator_ov12830_camera.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:system/vendor/lib/libactuator_ov8825_camcorder.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_ov8825_camera.so:system/vendor/lib/libactuator_ov8825_camera.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libarcsoft_panorama_burstcapture.so:system/vendor/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libxditk_DIT_MSM8916.so:system/vendor/lib/libxditk_DIT_MSM8916.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libxditk_DIT_Qualcomm.so:system/vendor/lib/libxditk_DIT_Qualcomm.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libxditk_mmcamera2_stats_algorithm.so:system/vendor/lib/libxditk_mmcamera2_stats_algorithm.so \
+    vendor/asus/t00n/proprietary/vendor/etc/style.cng:system/vendor/etc/style.cng \
     vendor/asus/t00n/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/asus/t00n/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/asus/t00n/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -312,9 +352,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/asus/t00n/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/asus/t00n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/asus/t00n/proprietary/lib/hw/sensors.Pad.msm8974.so:system/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.ADSP.msm8974.so:system/lib/hw/sensors.ADSP.msm8974.so \
-    vendor/asus/t00n/proprietary/lib/hw/sensors.Pad.msm8974.so:system/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/libcmdthread.so:system/lib/libcmdthread.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
