@@ -18,10 +18,19 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/asus/t00n/overlay
 
 PRODUCT_PACKAGES += \
-    asusCamera \
+    com.qualcomm.location \
+    QuickBoot \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    asusCamera  \
+    libtime_genoff \
+    libTimeService \
+    TimeService \
+    libscale \
     libwvdrmengine \
     libwvdrm_L3 \
     libwvm \
+    libcneapiclient \
     libWVStreamControlAPI_L3
 
 ifeq ($(QCPATH),)
