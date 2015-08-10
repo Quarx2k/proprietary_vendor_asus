@@ -340,6 +340,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/asus/t00n/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/asus/t00n/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/asus/t00n/proprietary/bin/radish:system/bin/radish \
