@@ -169,35 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
-    vendor/asus/t00n/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/asus/t00n/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/asus/t00n/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/asus/t00n/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/asus/t00n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/asus/t00n/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/asus/t00n/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/asus/t00n/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/asus/t00n/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/asus/t00n/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/asus/t00n/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/asus/t00n/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/asus/t00n/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/asus/t00n/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/asus/t00n/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    vendor/asus/t00n/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/asus/t00n/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Bluetooth_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Bluetooth_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_General_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_General_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Global_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Global_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Handset_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Handset_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Hdmi_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Hdmi_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Headset_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Headset_cal.acdb \
-    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Speaker_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Speaker_cal.acdb \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
@@ -263,33 +234,51 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
     vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
+    vendor/asus/t00n/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/asus/t00n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/asus/t00n/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/asus/t00n/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/asus/t00n/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/asus/t00n/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/asus/t00n/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
+    vendor/asus/t00n/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/asus/t00n/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    vendor/asus/t00n/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
+    vendor/asus/t00n/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+    vendor/asus/t00n/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/asus/t00n/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/asus/t00n/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/asus/t00n/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Bluetooth_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Bluetooth_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_General_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_General_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Global_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Global_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Handset_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Handset_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Hdmi_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Hdmi_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Headset_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Headset_cal.acdb \
+    vendor/asus/t00n/proprietary/etc/acdbdata/PF500KL/PF500KL_Speaker_cal.acdb:system/etc/acdbdata/PF500KL/PF500KL_Speaker_cal.acdb \
     vendor/asus/t00n/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/asus/t00n/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/asus/t00n/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/asus/t00n/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/asus/t00n/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/asus/t00n/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/asus/t00n/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/asus/t00n/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/asus/t00n/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/asus/t00n/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/asus/t00n/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/asus/t00n/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/asus/t00n/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/asus/t00n/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/asus/t00n/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/asus/t00n/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/asus/t00n/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/asus/t00n/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/asus/t00n/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/asus/t00n/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/asus/t00n/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/asus/t00n/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/asus/t00n/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/asus/t00n/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/asus/t00n/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -297,12 +286,36 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/asus/t00n/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/asus/t00n/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/asus/t00n/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/asus/t00n/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/asus/t00n/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/asus/t00n/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
+    vendor/asus/t00n/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
+    vendor/asus/t00n/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/asus/t00n/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/asus/t00n/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/asus/t00n/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/asus/t00n/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/asus/t00n/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/asus/t00n/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/asus/t00n/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -314,7 +327,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/asus/t00n/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/asus/t00n/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/asus/t00n/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/asus/t00n/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -329,16 +341,21 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/asus/t00n/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/asus/t00n/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/asus/t00n/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/asus/t00n/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/asus/t00n/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/asus/t00n/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/asus/t00n/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/asus/t00n/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/asus/t00n/proprietary/bin/radish:system/bin/radish \
@@ -348,47 +365,22 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/asus/t00n/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/asus/t00n/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/asus/t00n/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/asus/t00n/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/asus/t00n/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/asus/t00n/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/asus/t00n/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/asus/t00n/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/asus/t00n/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/asus/t00n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/asus/t00n/proprietary/lib/hw/sensors.Pad.msm8974.so:system/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.ADSP.msm8974.so:system/lib/hw/sensors.ADSP.msm8974.so \
-    vendor/asus/t00n/proprietary/lib/libcmdthread.so:system/lib/libcmdthread.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/asus/t00n/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-    vendor/asus/t00n/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
-    vendor/asus/t00n/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/asus/t00n/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/asus/t00n/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/asus/t00n/proprietary/bin/hvdcp:system/bin/hvdcp \
-    vendor/asus/t00n/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/asus/t00n/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/asus/t00n/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/asus/t00n/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/asus/t00n/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
     vendor/asus/t00n/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/asus/t00n/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/asus/t00n/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon
-
