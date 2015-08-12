@@ -169,6 +169,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
+    vendor/asus/t00n/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/asus/t00n/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/asus/t00n/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
