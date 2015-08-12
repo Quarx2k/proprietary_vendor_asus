@@ -380,6 +380,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/lib/hw/sensors.ADSP.msm8974.so:system/lib/hw/sensors.ADSP.msm8974.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/asus/t00n/proprietary/lib/libcmdthread.so:system/lib/libcmdthread.so \
     vendor/asus/t00n/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
