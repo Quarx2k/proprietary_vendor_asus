@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener \
-    AsusCamera
+    asusCamera
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
