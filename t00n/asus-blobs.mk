@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/asus/t00n/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/asus/t00n/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/asus/t00n/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/asus/t00n/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/asus/t00n/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
