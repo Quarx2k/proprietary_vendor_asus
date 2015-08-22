@@ -23,22 +23,26 @@ PRODUCT_PACKAGES += \
     QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener \
-    asusCamera
-
-PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     libmm-abl \
     libtime_genoff \
     libTimeService \
-    TimeService
-
-PRODUCT_PACKAGES += \
+    TimeService \
     libscale \
-
-PRODUCT_PACKAGES += \
     libwvdrmengine \
     libwvdrm_L3 \
     libwvm \
     libWVStreamControlAPI_L3
+
+#Asus Apps
+PRODUCT_PACKAGES += \
+    asusGallery \
+    asusCamera \
+    libgif \
+    libjni_face_detection \
+    libjni_face_effect \
+    libjni_filter_show \
+    liblocSDK4 \
+    libBaiduMapSDK_v2_4_1
 
 $(call inherit-product, vendor/asus/t00n/asus-blobs.mk)
