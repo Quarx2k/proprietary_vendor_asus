@@ -255,6 +255,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libjni_face_detection
+LOCAL_MODULE_OWNER := asus
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
@@ -266,6 +267,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libjni_face_effect
+LOCAL_MODULE_OWNER := asus
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
@@ -277,6 +279,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libjni_filter_show
+LOCAL_MODULE_OWNER := asus
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
@@ -288,6 +291,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := liblocSDK4
+LOCAL_MODULE_OWNER := asus
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
@@ -298,12 +302,13 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := proprietary/app/AsusGallery/lib/arm/libBaiduMapSDK_v2_4_1.so
 LOCAL_MODULE := libBaiduMapSDK_v2_4_1
+LOCAL_MODULE_OWNER := asus
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_SRC_FILES := proprietary/app/AsusGallery/lib/arm/libBaiduMapSDK_v2_4_1.so
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
