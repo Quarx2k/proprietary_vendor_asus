@@ -35,13 +35,6 @@ PRODUCT_PACKAGES += \
 
 #Asus Apps
 PRODUCT_PACKAGES += \
-    asusGallery \
-    asusCamera \
-    libgif \
-    libjni_face_detection \
-    libjni_face_effect \
-    libjni_filter_show \
-    liblocSDK4 \
-    libBaiduMapSDK_v2_4_1
-
+    asusCamera
+	
 $(call inherit-product, vendor/asus/t00n/asus-blobs.mk)
