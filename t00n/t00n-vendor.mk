@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     PPPreference \
     QuickBoot \
-    qcrilmsgtunnel \
     shutdownlistener \
     libHevcSwDecoder \
     libmm-abl \
