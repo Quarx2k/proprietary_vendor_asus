@@ -31,7 +31,16 @@ PRODUCT_PACKAGES += \
     libwvdrmengine \
     libwvdrm_L3 \
     libwvm \
-    libWVStreamControlAPI_L3
+    libWVStreamControlAPI_L3 \
+    libqmi \
+    libqmiservices \
+    libidl \
+    libqcci_legacy \
+    libdiag \
+    libqmi_client_qmux \
+    libdsutils \
+    libmdmdetect \
+    libwpa_qmi_eap_proxy
 
 #Asus Apps
 PRODUCT_PACKAGES += \

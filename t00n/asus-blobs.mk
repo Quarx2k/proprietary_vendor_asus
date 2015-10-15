@@ -354,7 +354,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
