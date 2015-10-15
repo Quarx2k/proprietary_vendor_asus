@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     QuickBoot \
     shutdownlistener \
     libHevcSwDecoder \
-    libmm-abl \
     libtime_genoff \
     libTimeService \
     TimeService \

@@ -283,36 +283,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/asus/t00n/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/t00n/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/asus/t00n/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/asus/t00n/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/asus/t00n/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/asus/t00n/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/asus/t00n/proprietary/bin/quipc_main:system/bin/quipc_main \
-    vendor/asus/t00n/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/asus/t00n/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/asus/t00n/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/asus/t00n/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/asus/t00n/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/asus/t00n/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
-    vendor/asus/t00n/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
-    vendor/asus/t00n/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/asus/t00n/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/asus/t00n/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/asus/t00n/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -349,6 +319,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/asus/t00n/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/asus/t00n/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/asus/t00n/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/asus/t00n/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/asus/t00n/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
