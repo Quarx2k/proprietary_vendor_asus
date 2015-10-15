@@ -278,11 +278,17 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/asus/t00n/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/asus/t00n/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/asus/t00n/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/asus/t00n/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/t00n/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/asus/t00n/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libwvdrm_L1.s:system/vendor/lib/libwvdrm_L1.s \
     vendor/asus/t00n/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/asus/t00n/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
