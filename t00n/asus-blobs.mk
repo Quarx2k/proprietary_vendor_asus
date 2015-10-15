@@ -390,9 +390,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/asus/t00n/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/asus/t00n/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/asus/t00n/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/asus/t00n/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/asus/t00n/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libvss_common_core.so:system/vendor/lib/libvss_common_core.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libvss_common_idl.so:system/vendor/lib/libvss_common_idl.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libvss_common_iface.so:system/vendor/lib/libvss_common_iface.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so \
     vendor/asus/t00n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/asus/t00n/proprietary/lib/hw/sensors.Pad.msm8974.so:system/lib/hw/sensors.Pad.msm8974.so \
     vendor/asus/t00n/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
@@ -400,6 +407,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/lib/libcmdthread.so:system/lib/libcmdthread.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/asus/t00n/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/asus/t00n/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
