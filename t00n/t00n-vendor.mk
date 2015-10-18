@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
     libqmi_client_qmux \
     libdsutils \
     libmdmdetect \
+    libqmi_cci \
     libwpa_qmi_eap_proxy
 
 #Asus Apps
