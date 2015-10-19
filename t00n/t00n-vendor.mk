@@ -18,9 +18,6 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/asus/t00n/overlay
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    PPPreference \
-    QuickBoot \
     shutdownlistener \
     libHevcSwDecoder \
     libtime_genoff \
