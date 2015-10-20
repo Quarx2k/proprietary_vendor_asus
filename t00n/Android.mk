@@ -21,6 +21,8 @@ ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
 ifeq ($(QCPATH),)
 
 include $(CLEAR_VARS)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
@@ -178,7 +180,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_cci
 LOCAL_MODULE_OWNER := asus
-LOCAL_SRC_FILES := proprietary/lib/libqmi_cci.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_cci.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -187,6 +189,7 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 ########### Asus apps start ###########3
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := asusCamera
 LOCAL_MODULE_OWNER := asus
@@ -196,82 +199,8 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PROPRIETARY_MODULE := true
-LOCAL_OVERRIDES_PACKAGES := Camera2 Camera
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := asusGallery
-LOCAL_MODULE_OWNER := asus
-LOCAL_SRC_FILES := proprietary/app/AsusGallery/AsusGallery.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_OVERRIDES_PACKAGES := Gallery2 Gallery Gallery3D GalleryNew3D
-LOCAL_ADDITIONAL_DEPENDENCIES := libgif libjni_face_detection libjni_face_effect libjni_filter_show liblocSDK4 libBaiduMapSDK_v2_4_1
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libjni_face_detection
-LOCAL_MODULE_OWNER := asus
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := proprietary/app/AsusGallery/lib/arm/libjni_face_detection.so
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libjni_face_effect
-LOCAL_MODULE_OWNER := asus
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := proprietary/app/AsusGallery/lib/arm/libjni_face_effect.so
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libjni_filter_show
-LOCAL_MODULE_OWNER := asus
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := proprietary/app/AsusGallery/lib/arm/libjni_filter_show.so
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := liblocSDK4
-LOCAL_MODULE_OWNER := asus
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := proprietary/app/AsusGallery/lib/arm/liblocSDK4.so
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libBaiduMapSDK_v2_4_1
-LOCAL_MODULE_OWNER := asus
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := system/vendor/app/asusGallery/lib/arm
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := proprietary/app/AsusGallery/lib/arm/libBaiduMapSDK_v2_4_1.so
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-########### Asus apps end ###########3
 endif
 
 endif

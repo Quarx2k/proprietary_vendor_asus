@@ -23,11 +23,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libTimeService \
     TimeService \
-    libscale \
-    libwvdrmengine \
-    libwvdrm_L3 \
-    libwvm \
-    libWVStreamControlAPI_L3 \
     libqmi \
     libqmiservices \
     libidl \
@@ -42,5 +37,5 @@ PRODUCT_PACKAGES += \
 #Asus Apps
 PRODUCT_PACKAGES += \
     asusCamera
-	
+
 $(call inherit-product, vendor/asus/t00n/asus-blobs.mk)
