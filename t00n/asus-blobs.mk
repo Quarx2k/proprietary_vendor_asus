@@ -179,65 +179,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/asus/t00n/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/asus/t00n/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/asus/t00n/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/asus/t00n/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/asus/t00n/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/asus/t00n/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/asus/t00n/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    vendor/asus/t00n/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
-    vendor/asus/t00n/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
-    vendor/asus/t00n/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-    vendor/asus/t00n/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/asus/t00n/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/asus/t00n/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/asus/t00n/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/asus/t00n/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/asus/t00n/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
-    vendor/asus/t00n/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
     vendor/asus/t00n/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/asus/t00n/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/asus/t00n/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/asus/t00n/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/asus/t00n/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
-    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
-    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
-    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
-    vendor/asus/t00n/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
-    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
-    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
-    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
-    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
-    vendor/asus/t00n/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
-    vendor/asus/t00n/proprietary/etc/firmware/keymaster.b00:system/etc/firmware/keymaster.b00 \
-    vendor/asus/t00n/proprietary/etc/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
-    vendor/asus/t00n/proprietary/etc/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
-    vendor/asus/t00n/proprietary/etc/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
-    vendor/asus/t00n/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
-    vendor/asus/t00n/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/asus/t00n/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/asus/t00n/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/asus/t00n/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/asus/t00n/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/asus/t00n/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/asus/t00n/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-    vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
-    vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
-    vendor/asus/t00n/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/asus/t00n/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/asus/t00n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/asus/t00n/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
