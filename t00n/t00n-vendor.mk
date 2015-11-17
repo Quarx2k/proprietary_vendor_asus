@@ -19,6 +19,7 @@ DEVICE_PACKAGE_OVERLAYS := vendor/asus/t00n/overlay
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
+    qcrilmsgtunnel \
     shutdownlistener \
     libHevcSwDecoder \
     libtime_genoff \
@@ -33,7 +34,8 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libmdmdetect \
     libqmi_cci \
-    libwpa_qmi_eap_proxy
+    libwpa_qmi_eap_proxy \
+    libmm-abl
 
 #Asus Apps
 PRODUCT_PACKAGES += \
