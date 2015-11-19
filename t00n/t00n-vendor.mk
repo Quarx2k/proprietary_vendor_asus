@@ -23,8 +23,6 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     libHevcSwDecoder \
     libtime_genoff \
-    libTimeService \
-    TimeService \
     libqmi \
     libqmiservices \
     libidl \
@@ -37,7 +35,6 @@ PRODUCT_PACKAGES += \
     libwpa_qmi_eap_proxy \
     libmm-abl
 
-#Asus Apps
 PRODUCT_PACKAGES += \
     asusCamera
 
