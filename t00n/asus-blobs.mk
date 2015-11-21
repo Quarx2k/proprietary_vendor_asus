@@ -427,3 +427,4 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/asus/t00n/proprietary/bin/time_daemon:system/bin/time_daemon \
