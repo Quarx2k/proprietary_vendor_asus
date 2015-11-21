@@ -393,6 +393,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
     vendor/asus/t00n/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/asus/t00n/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
+    vendor/asus/t00n/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/asus/t00n/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/asus/t00n/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/asus/t00n/proprietary/bin/radish:system/bin/radish \
