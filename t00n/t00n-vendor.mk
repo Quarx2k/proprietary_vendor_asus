@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     shutdownlistener \
-    libHevcSwDecoder \
     libtime_genoff \
     libTimeService \
     TimeService \
@@ -34,8 +33,7 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libmdmdetect \
     libqmi_cci \
-    libwpa_qmi_eap_proxy \
-    libmm-abl
+    libwpa_qmi_eap_proxy
 
 #Asus Apps
 PRODUCT_PACKAGES += \
