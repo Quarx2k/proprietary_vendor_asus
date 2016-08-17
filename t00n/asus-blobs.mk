@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/asus/t00n/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/asus/t00n/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/asus/t00n/proprietary/lib/libsarcsoft.so:system/lib/libsarcsoft.so \
     vendor/asus/t00n/proprietary/lib/libsarcsoftface.so:system/lib/libsarcsoftface.so \
     vendor/asus/t00n/proprietary/lib/libsarcsoft_gallery.so:system/lib/libsarcsoft_gallery.so \
     vendor/asus/t00n/proprietary/lib/libsarcsoft_image_engine.so:system/lib/libsarcsoft_image_engine.so \
@@ -29,8 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
     vendor/asus/t00n/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
     vendor/asus/t00n/proprietary/lib/ditCL.bin:system/lib/ditCL.bin \
-    vendor/asus/t00n/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
-    vendor/asus/t00n/proprietary/lib/libcameraap_BSP.so:system/lib/libcameraap_BSP.so \
+    vendor/asus/t00n/proprietary/lib/libAFE.so:system/lib/libAFE.so \
     vendor/asus/t00n/proprietary/lib/libcamera_defocus.so:system/lib/libcamera_defocus.so \
     vendor/asus/t00n/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
     vendor/asus/t00n/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -75,9 +75,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so \
     vendor/asus/t00n/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/asus/t00n/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/asus/t00n/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/asus/t00n/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/asus/t00n/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/asus/t00n/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/asus/t00n/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/asus/t00n/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
@@ -194,6 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/asus/t00n/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/asus/t00n/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
+    vendor/asus/t00n/proprietary/vendor/lib/libarcsoft_panorama_burstcapture.so:system/vendor/lib/libarcsoft_panorama_burstcapture.so \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
     vendor/asus/t00n/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
@@ -385,7 +388,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/asus/t00n/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/asus/t00n/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
-    vendor/asus/t00n/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/asus/t00n/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/t00n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
